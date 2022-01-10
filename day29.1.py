@@ -1,7 +1,7 @@
 #program menghitung rata - rata
 list_nilai = []
 
-banyak_data = int(input("Masukkan banyak data :"))
+banyak_data = int(input("Masukkan banyak data :", show = "*"))
 
 for i in range (banyak_data):
     nilai_ke = int(input(f"Masukkan nilai ke- {i+1} : "))
