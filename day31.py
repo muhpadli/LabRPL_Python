@@ -17,7 +17,7 @@ else:
         gaji_pokok = 1_500_000
     elif(golongan ==2):
         gaji_pokok = 1_200_000
-    elif(golongan ==1):
+    elif(golongan ==3):
         gaji_pokok = 1_000_000
 
 print(f"Gaji total anda adalah Rp. {gaji_pokok+bonus} ")
