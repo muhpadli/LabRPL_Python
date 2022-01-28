@@ -7,7 +7,7 @@ ASEAN = [Indonesia, Malaysia]
 print(ASEAN)
 print()
 
-#program meletakan zonk di
+#program meletakan zonk 
 baris_1 = ["1","1","1"]
 baris_2 = ["1","1","1"]
 baris_3 = ["1","1","1"]
@@ -16,9 +16,9 @@ print(f"{baris_1}\n{baris_2}\n{baris_3}")
 
 posisi = input("dimana anda ingin meletakkan zonk :")
 
-kolom = int(posisi[0])
-baris = int(posisi[1])
+baris = int(posisi[0])
+kolom = int(posisi[1])
 
 
-map[baris -1][kolom - 1]= "0"
+map[kolom -1][baris - 1]= "0"
 print(f"{baris_1}\n{baris_2}\n{baris_3}")
