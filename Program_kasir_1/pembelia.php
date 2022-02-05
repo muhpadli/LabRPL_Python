@@ -1,7 +1,7 @@
 <?php
 $jumlah_tas = $_POST["jtas"];
 $jumlah_baju = $_POST["jbaju"];
-$jumlah_tas = $_POST["jsepatu"];
+$jumlah_sepatu = $_POST["jsepatu"];
 
 define('HARGA_TAS', 55000);
 define('HARGA_BAJU', 50000);
@@ -55,25 +55,19 @@ $total_bayar = $total - ($total * $diskon);
     echo '<th scope="row">1</th>';
     echo '<td>Tas</td>';
     echo '<td>55.000</td>';
-    echo '<td>
-                    <div class="1hrg_ttltas"></div>
-                </td>';
+    echo '<td>' . $jumlah_tas . '</td>';
     echo '</tr>';
     echo '<tr>';
     echo '<th scope="row">2</th>';
     echo '<td>Baju</td>';
     echo '<td>50.000</td>';
-    echo '<td>
-                    <div class="1hrg_ttlbaju"></div>
-                </td>';
+    echo '<td>' . $jumlah_baju . '</td>';
     echo '</tr>';
     echo '<tr>';
     echo '<th scope="row">3</th>';
     echo '<td>sepatu</td>';
     echo '<td>150.000</td>';
-    echo '<td>
-                    <div class="1hrg_ttlsepatu"></div>
-                </td>';
+    echo '<td>' . $jumlah_sepatu . '</td>';
     echo '</tr>';
     echo '</tbody>';
     echo '</table>';
